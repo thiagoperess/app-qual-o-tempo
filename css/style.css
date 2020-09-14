@@ -1,5 +1,12 @@
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Zoom */
+
+html {
+  zoom: 0.9;
+}
+
 :root {
   --bg_main: #0a1f44;
   --text_light: #fff;
@@ -196,7 +203,7 @@ body {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center; 
 }
 
 /* MQ
