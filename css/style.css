@@ -131,6 +131,12 @@ body {
 
 /* SECTION #2
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+li.city {
+  height: 220px;
+  width: 200px;
+}
+
 .ajax-section {
   margin: 90px 0 20px;
   margin-left: -220px;
@@ -153,7 +159,7 @@ body {
 .ajax-section .city::after {
   content: '';
   width: 90%;
-  height: 50px;
+  height: 40px;
   position: absolute;
   bottom: -12px;
   left: 5%;
@@ -164,16 +170,17 @@ body {
 }
 
 .ajax-section figcaption {
+  font-size: small;
   margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .ajax-section .city-temp {
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 10px;
-  color: #0a1f44;
+  color: #0c0f15;
 }
 
 .ajax-section .city sup {
@@ -189,8 +196,8 @@ body {
 
 .ajax-section .city-icon {
   margin-top: 10px;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 
 
@@ -255,10 +262,10 @@ footer {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 100px) {
   .heading,
   .ajax-section .city-temp {
-    font-size: 3rem;
+    font-size: 1rem;
   }
   
   .ajax-section {
