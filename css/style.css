@@ -64,7 +64,6 @@ body {
   background: var(--bg_main);
   color: var(--text_dark);
   padding: 50px;
-  overflow: hidden;
 }
 
 .container {
@@ -202,6 +201,7 @@ footer {
   bottom: 0;
   height: 80px;
   width: 100%;
+  background-color: #202121;
 }
 
 .center {
@@ -212,11 +212,6 @@ footer {
   padding-top: 15px;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
-}
-
-.main {
-  width: 100%;
-  background-color: #202121;
 }
 
 .icon {
@@ -338,5 +333,12 @@ footer {
   
   .ajax-section .cities {
     grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 45px;
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+
 }
