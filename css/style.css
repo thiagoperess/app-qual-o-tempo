@@ -196,7 +196,7 @@ h3 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   height: 80px;
